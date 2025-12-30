@@ -5,6 +5,7 @@ This project demonstrates how LanceDB can be used as a lightweight database laye
 The project integrates LanceDB + Pandas + NetworkX + Matplotlib to model parent–child and spouse relationships and render them visually.
 
 
+
 **Features**
 
 - Stores family relationship data in LanceDB
@@ -16,6 +17,7 @@ The project integrates LanceDB + Pandas + NetworkX + Matplotlib to model parent�
 - Clear and structured layout with Matplotlib
 
 - Demonstrates how databases and graph theory can work together
+
 
 
 **Tech Stack**
@@ -33,12 +35,14 @@ Matplotlib
 PyArrow
 
 
+
 **Project Structure**
 
 family_tree_lancedb/
 │
 ├── main.py              # Main script for database + visualization
 ├── family_db/      
+
 
 
 **Key Concepts Demonstrated**
@@ -54,6 +58,7 @@ Layout management for tree visualization
 Separation of data storage and visualization logic
 
 
+
 **Future Enhancements**
 
 Interactive visualization (Plotly / D3.js)
@@ -61,4 +66,3 @@ Interactive visualization (Plotly / D3.js)
 Dynamic data input from users
 
 Web-based interface 
-
